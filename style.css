@@ -159,6 +159,7 @@ a {
 #doc-languages{
   text-align: center;
     font-size: 12px;
+
 }
 
 p {
@@ -176,6 +177,7 @@ footer {
     margin: 0 auto;
     margin-left: 1%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 #footer-content div {
     float: left;
@@ -196,6 +198,7 @@ footer {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);
     background-repeat: no-repeat;
     border: 1px solid #d5d5d5;
+
 }
 
 .gh-btn, .gh-count {
@@ -222,6 +225,10 @@ footer {
     padding-left: 15px;
 }
 
+#github{
+  padding-left: 2%;
+}
+
 @media (max-width: 899px){
   #logo {
     position: static;
@@ -229,18 +236,18 @@ footer {
       
   }
   a.express{
-    display: none ;
+    display: none !important;
   }
   #logo a {
     display: table!important;
     margin: 0 auto;
+    font-weight: bold !important;
   }
   #navMenu{
     display: none;
   }
   #logo.express{
     font-weight: bold;
-    font-weight: 100;
   }
   .clearfix{
     background-color: none;
