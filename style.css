@@ -1,9 +1,14 @@
+html{
+  padding-bottom: 50px;
+}
+
 body {
     font: 400 14px/1.6 "Open Sans",sans-serif;
-    background: url(/images/bg.jpg);
+    background: url(/images/bg.jpg)
     margin: 0;
     padding: 0;
     color: #555;
+    padding-bottom: 20px;
 }
 
 
@@ -163,7 +168,6 @@ a {
 #doc-languages{
   text-align: center;
     font-size: 12px;
-
 }
 
 p {
@@ -179,7 +183,7 @@ footer {
 }
 
 #footer-content {
-    display: table;
+    display: block;
     margin: 0 auto;
     margin-left: 1%;
     margin-top: 5%;
@@ -190,7 +194,7 @@ footer {
     background-repeat: no-repeat;
     background-position: 0 1px;  
     display: inline-block;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 
 .gh-btn {
@@ -233,6 +237,19 @@ footer {
 
 
 @media (max-width: 899px){
+
+  p{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #intro{
+    margin-left: 4%;
+    margin-top: -20px;
+  } 
+  #home-content{
+    margin: 100px 0 2% 5%;
+ 
+  }
   #logo {
     position: static;
     width: 100%;
@@ -240,8 +257,14 @@ footer {
   }
   #mobile-menu{
   display: block;
-  margin-left: 1%;
+  margin-left: 3%;
   margin-top: 1%;
+
+  }
+  #nav-button{ 
+   padding: 3px;
+   border: 1px solid grey;
+   border-radius: 3px 3px 3px 3px;
   } 
   a.express{
     display: none !important;
@@ -256,7 +279,7 @@ footer {
   }
   #logo .express{
     font-weight: bold;
-    margin-top: -38px;
+    margin-top: -45px;
   }
   .clearfix{
     background-color: none;
@@ -265,7 +288,7 @@ footer {
     background-color: none;
     display: block;
     width: auto;
-
+    
   }
   h3 {
     font-size: 16px;
@@ -278,6 +301,9 @@ footer {
   #description .description {
     font-size: 3em;
     line-height: .9em;
+}
+#doc-languages {
+    margin-bottom: 50px;
 }
 
 }
